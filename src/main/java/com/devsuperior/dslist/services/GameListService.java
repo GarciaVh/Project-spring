@@ -12,6 +12,9 @@ import java.util.List;
 public class GameListService {
 
     @Autowired
+    private GameService gameService;
+
+    @Autowired
     private GameListRepository gameListRepository;
     
     public List<GameListDTO> findAll() {
