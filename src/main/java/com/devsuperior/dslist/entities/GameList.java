@@ -6,6 +6,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "tb_game_list")
+
 public class GameList {
 
     @Id
@@ -14,7 +15,6 @@ public class GameList {
     private String Name;
 
     public  GameList() {
-
     }
 
     public GameList(Long id, String name) {
